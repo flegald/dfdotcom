@@ -1,0 +1,11 @@
+body {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	font-family: 'Arcitectur';
+}
+
+#name {
+	vertical-align: middle;
+}
+
+
