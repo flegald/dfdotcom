@@ -18,6 +18,11 @@ body {
 	color: #800000;
 }
 
+.white {
+  color: #CCCCCC;
+  font-size: 2em;
+  font-family: 'Kristi', cursive;  }
+
 #name {
 	padding-top: 60px;
 	font-size: 3em;
@@ -36,9 +41,7 @@ body {
 
 .article-custom {
 	width:100%;
-	height: 100%;
 	background-image: url('../images/gradient.jpg');
-	background-repeat: repeat-y;
 	padding-top: 20px;
 }
 
@@ -155,6 +158,10 @@ i {
 
 i:hover {
 	color: #a64c4c;
+}
+
+.article-custom {
+  text-align: center;
 }
 
 .contact-item {
