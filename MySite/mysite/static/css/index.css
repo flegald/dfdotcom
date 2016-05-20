@@ -94,6 +94,19 @@ i:hover {
 
 }
 
+.footer {
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 5px;
+  height: 30px;
+  background-color: #efefef;
+}
+
+.screen_cap {
+  width:75%;
+  padding-bottom: 15px;
+}
+
 /*Hover items*/
 
 .hovereffect {

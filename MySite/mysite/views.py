@@ -27,3 +27,10 @@ def contact_view(request):
     """Display Contact."""
     message = "Hello"
     return {'message': message}
+
+
+@view_config(route_name='imager', renderer='templates/imager.jinja2')
+def imager_view(request):
+    """Display Imager Detail."""
+    message = "Hello"
+    return {'message': message}
