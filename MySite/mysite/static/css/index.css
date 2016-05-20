@@ -39,25 +39,62 @@ body {
     margin-bottom: 30px;
 }
 
+#me {
+	max-height: 300px;
+}
+
+#about_contact {
+	list-style: none;
+}
+
+#about_contact li {
+	display: inline-block;
+	padding: 10px;
+}
+
+i {
+	color: #800000;
+}
+
+i:hover {
+	color: #a64c4c;
+}
+
+.article-custom {
+  text-align: center;
+}
+
+.contact-item {
+	text-align: center;
+	border-left: 1px solid #800000;
+	border-right: 1px solid #800000;
+}
+
 .page-header {
-	padding-top: 220px;
-	font-size: 4em;
-	margin-bottom: 0px;
+  padding-top: 220px;
+  font-size: 4em;
+  margin-bottom: 0px;
     border-bottom: 1px solid #800000;
 }
 
 .article-custom {
-	width:100%;
-	background-image: url('../images/gradient.jpg');
-	padding-top: 20px;
+  width:100%;
+  background-image: url('../images/gradient.jpg');
+  padding-top: 20px;
 }
 
 .port-item {
-	padding-bottom: 20px;
-	font-family: Arial;
+  padding-bottom: 20px;
+  font-family: Arial;
   border: 1px solid #800000;
 }
 
+.contact-article {
+  height: 100%;
+
+}
+
+/*Hover items*/
 
 .hovereffect {
   width: 100%;
@@ -147,33 +184,3 @@ body {
   transform: translate3d(0,0,0);
 }
 
-#me {
-	max-height: 300px;
-}
-
-#about_contact {
-	list-style: none;
-}
-
-#about_contact li {
-	display: inline-block;
-	padding: 10px;
-}
-
-i {
-	color: #800000;
-}
-
-i:hover {
-	color: #a64c4c;
-}
-
-.article-custom {
-  text-align: center;
-}
-
-.contact-item {
-	text-align: center;
-	border-left: 1px solid #800000;
-	border-right: 1px solid #800000;
-}
