@@ -34,3 +34,49 @@ def imager_view(request):
     """Display Imager Detail."""
     message = "Hello"
     return {'message': message}
+
+
+@view_config(route_name='nighttime', renderer='templates/nighttime.jinja2')
+def nighttime_view(request):
+    """Display Imager Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+@view_config(route_name='gameini', renderer='templates/gameini.jinja2')
+def gameini_view(request):
+    """Display Imager Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+@view_config(route_name='decodaquote', renderer='templates/decodaquote.jinja2')
+def decodaquote_view(request):
+    """Display Decodaquote Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+@view_config(route_name='tasktrapper', renderer='templates/tasktrapper.jinja2')
+def tasktrapper_view(request):
+    """Display Task trapper Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+@view_config(route_name='echelonjs', renderer='templates/echelon.jinja2')
+def echelon_view(request):
+    """Display EchelonJS Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+@view_config(route_name='hangman', renderer='templates/hangman.jinja2')
+def hangman_view(request):
+    """Display Task trapper Detail."""
+    message = "Hello"
+    return {'message': message}
+
+
+
+
