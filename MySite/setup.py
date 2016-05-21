@@ -10,9 +10,9 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 
 requires = [
     'pyramid',
-    'pyramid_chameleon',
     'pyramid_debugtoolbar',
     'waitress',
+    'pyramid_jinja2'
     ]
 
 setup(name='MySite',
@@ -25,8 +25,8 @@ setup(name='MySite',
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
         ],
-      author='',
-      author_email='',
+      author='David Flegal',
+      author_email='flegal.david@gmail.com',
       url='',
       keywords='web pyramid pylons',
       packages=find_packages(),
